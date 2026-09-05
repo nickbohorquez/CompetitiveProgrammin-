@@ -1,3 +1,13 @@
-//
-// Created by ASUS on 04/09/2026.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    string word;
+    getline(cin, word);
+    for (char &c : word){
+        if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+            c ^= 32;
+        }
+    }
+    cout << word;
+}

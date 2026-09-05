@@ -1,3 +1,6 @@
-//
-// Created by ASUS on 05/09/2026.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, CPC!";
+}

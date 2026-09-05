@@ -1,3 +1,12 @@
-//
-// Created by ASUS on 04/09/2026.
-//
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, c;
+    cin >> a >> b >> c;
+    double s = (a + b + c)/2;
+    double area = sqrt(s*(s-a)*(s-b)*(s-c));
+    cout << setprecision(15) << area;
+}
